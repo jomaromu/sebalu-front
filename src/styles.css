@@ -1,0 +1,10 @@
+html {
+    scroll-behavior: auto;
+}
+
+@font-face {
+    font-family: 'LawyerGothic-Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: url(./assets/fuentes/LawyerGothic-Bold.ttf);
+}

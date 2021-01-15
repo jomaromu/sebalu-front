@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+i {
+    color: white;
+    font-size: 1.7rem;
+}
+
+@media screen and (max-width: 460px) {
+    footer>div#descripcion>p>span {
+        font-size: 1rem;
+    }
+    footer>div#descripcion>div#redesSociales>a>img {
+        width: 30px;
+    }
+}
+
+footer {
+    padding: 20px;
+    background-color: rgb(66, 66, 66);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+footer>#descripcion {
+    /* background-color: purple; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer>#descripcion>p {
+    margin-bottom: 10px;
+}
+
+footer>#descripcion>#redesSociales {
+    /* background-color: purple; */
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+footer>#descripcion>#redesSociales>a>img {
+    width: 35px;
+}
+
+footer>#descripcion>#redesSociales>a:hover {
+    cursor: pointer;
+}
+
+p span {
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container .by {
+    color: rgb(255, 255, 255);
+}
