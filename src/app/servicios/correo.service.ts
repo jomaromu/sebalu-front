@@ -14,8 +14,8 @@ export class CorreoService {
 
   enviarCorreo(data): Observable<any> {
 
-    const url = 'http://18.191.51.33:3000/envio';
-    // const url = 'http://localhost:3000/envio';
+    // const url = 'http://18.191.51.33:3000/envio';
+    const url = 'http://localhost:3000/envio';
     return this.http.post<any>(url, data )
       .pipe(
         map((resp: any) => {
