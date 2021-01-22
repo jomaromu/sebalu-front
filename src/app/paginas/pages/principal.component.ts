@@ -40,7 +40,7 @@ export class PrincipalComponent implements OnInit {
 
   ngOnInit(): void {
 
-    this.cargarLoading();
+    // this.cargarLoading();
 
     this.videoResponsive();
 
